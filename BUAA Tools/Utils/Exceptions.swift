@@ -11,4 +11,5 @@ enum AppException : Error {
     case InternetError
     case LoginFailed
     case DoubleLogin
+    case DataError
 }

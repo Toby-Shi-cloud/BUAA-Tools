@@ -58,6 +58,9 @@ class Balance: ObservableObject {
         }
         guard balance != nil else { return false }
         DispatchQueue.main.async { self.balanceState = .successed }
+        if !UserSetting.defaultSetting.nrecordBalanceData {
+            UserData.dataModel.insertBalance(self)
+        }
         return true
     }
 }

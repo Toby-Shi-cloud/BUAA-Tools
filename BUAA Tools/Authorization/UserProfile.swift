@@ -13,4 +13,6 @@ enum UserProfile : String {
     case viewIndex
     case tdShowWebsite
     case hideBalance
+    case nrecordTrafficData
+    case nrecordBalanceData
 }

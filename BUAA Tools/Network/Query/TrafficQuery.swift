@@ -101,7 +101,9 @@ class Traffic : ObservableObject {
             }
         }
         DispatchQueue.main.async { self.trafficState = .successed }
-//        print("Traffic OK!")
+        if !UserSetting.defaultSetting.nrecordTrafficData {
+            UserData.dataModel.insertTraffic(self)
+        }
         return true
     }
 }

@@ -45,11 +45,10 @@ struct HomeView: View {
         NavigationSplitView {
             List(setting.viewIndexModel, selection: $modelID) { model in
                 Section {
-                    Text(viewTitle[model.index]).font(.title2).frame(height: 35).bold(true).buttonStyle(StaticButtonStyle())
-                    myViews![model.index].buttonStyle(StaticButtonStyle())
-                }.buttonStyle(StaticButtonStyle())
+                    Text(viewTitle[model.index]).font(.title2).frame(height: 35).bold(true)
+                    myViews![model.index]
+                }
             }
-            .buttonStyle(StaticButtonStyle())
             .listStyle(GroupedListStyle())
             .navigationTitle("BUAA Tools")
         } detail: {

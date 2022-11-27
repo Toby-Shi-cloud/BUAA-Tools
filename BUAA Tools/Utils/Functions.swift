@@ -38,3 +38,9 @@ func modelToIndex(value: [IndexModel]) -> [Int] {
     }
     return list
 }
+
+func getMorningDate(date: Date) -> Date{
+    let calendar = Calendar.current
+    let components = calendar.dateComponents([.year, .month, .day], from: date)
+    return calendar.date(from: components)!
+}

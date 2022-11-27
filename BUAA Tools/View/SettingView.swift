@@ -13,6 +13,8 @@ struct SettingView: View {
     @State var viewIndexModel = UserSetting.defaultSetting.viewIndexModel
     @State var tdShowWebsite = UserSetting.defaultSetting.tdShowWebsite
     @State var hideBalance = UserSetting.defaultSetting.hideBalance
+    @State var recordTrafficData = !UserSetting.defaultSetting.nrecordTrafficData
+    @State var recordBalanceData = !UserSetting.defaultSetting.nrecordBalanceData
     @State var modelID: IndexModel.ID? = nil
     @State var logout: Bool = false
     let titles = UserSetting.viewSettingTitles
@@ -38,6 +40,14 @@ struct SettingView: View {
                     Text("隐藏校园卡余额")
                 }
             }
+            Section("数据储存") {
+                Toggle(isOn: $recordTrafficData) {
+                    Text("储存流量数据")
+                }
+                Toggle(isOn: $recordBalanceData) {
+                    Text("存储校园卡余额")
+                }
+            }
         }.safeAreaInset(edge: .top, alignment: .center, spacing: 0) { Rectangle().frame(height: 60).foregroundColor(Color.clear) }
         .cornerRadius(20)
         .overlay(alignment: .topTrailing) {
@@ -45,6 +55,8 @@ struct SettingView: View {
                 UserSetting.defaultSetting.viewIndexModel = viewIndexModel
                 UserSetting.defaultSetting.tdShowWebsite = tdShowWebsite
                 UserSetting.defaultSetting.hideBalance = hideBalance
+                UserSetting.defaultSetting.nrecordTrafficData = !recordTrafficData
+                UserSetting.defaultSetting.nrecordBalanceData = !recordBalanceData
                 UserSetting.defaultSetting.saveSetting()
                 showingSetting.toggle()
             } label: {

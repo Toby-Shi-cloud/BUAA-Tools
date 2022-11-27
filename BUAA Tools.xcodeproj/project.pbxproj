@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DADA5F293384D800950BDD /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04DADA5D293384D800950BDD /* DataModel.xcdatamodeld */; };
+		04DADA62293387B200950BDD /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DADA61293387B200950BDD /* UserData.swift */; };
+		04DADA6429339BB800950BDD /* TrafficManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DADA6329339BB800950BDD /* TrafficManager.swift */; };
+		04DADA682933A26F00950BDD /* SimpleDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DADA672933A26F00950BDD /* SimpleDate.swift */; };
+		04DADA6A2933A7A700950BDD /* BalanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DADA692933A7A700950BDD /* BalanceManager.swift */; };
+		04DADA6D2933A87F00950BDD /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DADA6C2933A87F00950BDD /* DataManager.swift */; };
+		04DADA6F2933A98100950BDD /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DADA6E2933A98100950BDD /* ChartView.swift */; };
+		04DADA712933BD3100950BDD /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DADA702933BD3000950BDD /* ChartsView.swift */; };
 		04DC15AF2931E9AB009F3411 /* ToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC15AE2931E9AB009F3411 /* ToolsApp.swift */; };
 		04DC15B12931E9AB009F3411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC15B02931E9AB009F3411 /* ContentView.swift */; };
 		04DC15B32931E9AC009F3411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DC15B22931E9AC009F3411 /* Assets.xcassets */; };
@@ -17,7 +25,6 @@
 		04DC15E62931EC4F009F3411 /* TdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC15C62931EC4E009F3411 /* TdView.swift */; };
 		04DC15E72931EC4F009F3411 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC15C72931EC4E009F3411 /* LoginView.swift */; };
 		04DC15E82931EC4F009F3411 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC15C92931EC4E009F3411 /* BackgroundView.swift */; };
-		04DC15E92931EC4F009F3411 /* StaticButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC15CA2931EC4E009F3411 /* StaticButtonStyle.swift */; };
 		04DC15EA2931EC4F009F3411 /* CapsuleProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC15CB2931EC4E009F3411 /* CapsuleProgressViewStyle.swift */; };
 		04DC15EB2931EC4F009F3411 /* WithPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC15CC2931EC4E009F3411 /* WithPopover.swift */; };
 		04DC15ED2931EC4F009F3411 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC15CF2931EC4E009F3411 /* WebView.swift */; };
@@ -41,6 +48,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04DADA5E293384D800950BDD /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		04DADA61293387B200950BDD /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		04DADA6329339BB800950BDD /* TrafficManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficManager.swift; sourceTree = "<group>"; };
+		04DADA672933A26F00950BDD /* SimpleDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDate.swift; sourceTree = "<group>"; };
+		04DADA692933A7A700950BDD /* BalanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceManager.swift; sourceTree = "<group>"; };
+		04DADA6C2933A87F00950BDD /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		04DADA6E2933A98100950BDD /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		04DADA702933BD3000950BDD /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		04DC15AB2931E9AB009F3411 /* BUAA Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BUAA Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DC15AE2931E9AB009F3411 /* ToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsApp.swift; sourceTree = "<group>"; };
 		04DC15B02931E9AB009F3411 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +68,6 @@
 		04DC15C62931EC4E009F3411 /* TdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TdView.swift; sourceTree = "<group>"; };
 		04DC15C72931EC4E009F3411 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		04DC15C92931EC4E009F3411 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
-		04DC15CA2931EC4E009F3411 /* StaticButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticButtonStyle.swift; sourceTree = "<group>"; };
 		04DC15CB2931EC4E009F3411 /* CapsuleProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsuleProgressViewStyle.swift; sourceTree = "<group>"; };
 		04DC15CC2931EC4E009F3411 /* WithPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithPopover.swift; sourceTree = "<group>"; };
 		04DC15CF2931EC4E009F3411 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -88,6 +102,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04DADA60293386C900950BDD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				04DADA61293387B200950BDD /* UserData.swift */,
+				04DADA6329339BB800950BDD /* TrafficManager.swift */,
+				04DADA692933A7A700950BDD /* BalanceManager.swift */,
+				04DADA6C2933A87F00950BDD /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		04DC15A22931E9AB009F3411 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +133,7 @@
 		04DC15AD2931E9AB009F3411 /* BUAA Tools */ = {
 			isa = PBXGroup;
 			children = (
+				04DADA60293386C900950BDD /* Data */,
 				04DC15D22931EC4E009F3411 /* Authorization */,
 				04DC15DC2931EC4F009F3411 /* Network */,
 				04DC15D62931EC4F009F3411 /* Utils */,
@@ -116,6 +142,7 @@
 				04DC15B02931E9AB009F3411 /* ContentView.swift */,
 				04DC15B22931E9AC009F3411 /* Assets.xcassets */,
 				04DC15B42931E9AC009F3411 /* BUAA_Tools.entitlements */,
+				04DADA5D293384D800950BDD /* DataModel.xcdatamodeld */,
 				04DC15B52931E9AC009F3411 /* Preview Content */,
 			);
 			path = "BUAA Tools";
@@ -133,10 +160,11 @@
 			isa = PBXGroup;
 			children = (
 				04DC15C22931EC4E009F3411 /* QueryView */,
-				04DC15C72931EC4E009F3411 /* LoginView.swift */,
 				04DC15C82931EC4E009F3411 /* BaseView */,
 				04DC15D02931EC4E009F3411 /* HomeView.swift */,
+				04DC15C72931EC4E009F3411 /* LoginView.swift */,
 				04DC15D12931EC4E009F3411 /* SettingView.swift */,
+				04DADA702933BD3000950BDD /* ChartsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,9 +185,9 @@
 			children = (
 				04DC15CF2931EC4E009F3411 /* WebView.swift */,
 				04DC15C92931EC4E009F3411 /* BackgroundView.swift */,
-				04DC15CA2931EC4E009F3411 /* StaticButtonStyle.swift */,
 				04DC15CB2931EC4E009F3411 /* CapsuleProgressViewStyle.swift */,
 				04DC15CC2931EC4E009F3411 /* WithPopover.swift */,
+				04DADA6E2933A98100950BDD /* ChartView.swift */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -182,6 +210,7 @@
 				04DC15D92931EC4F009F3411 /* Extensions.swift */,
 				04DC15DA2931EC4F009F3411 /* Exceptions.swift */,
 				04DC15DB2931EC4F009F3411 /* URLs.swift */,
+				04DADA672933A26F00950BDD /* SimpleDate.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -297,17 +326,24 @@
 				04DC15FC2931EC4F009F3411 /* TrafficQuery.swift in Sources */,
 				04DC15EA2931EC4F009F3411 /* CapsuleProgressViewStyle.swift in Sources */,
 				04DC15B12931E9AB009F3411 /* ContentView.swift in Sources */,
+				04DADA712933BD3100950BDD /* ChartsView.swift in Sources */,
 				04DC15FB2931EC4F009F3411 /* NcovQuery.swift in Sources */,
+				04DADA682933A26F00950BDD /* SimpleDate.swift in Sources */,
 				04DC15E42931EC4F009F3411 /* BalanceView.swift in Sources */,
+				04DADA6A2933A7A700950BDD /* BalanceManager.swift in Sources */,
 				04DC15F32931EC4F009F3411 /* Functions.swift in Sources */,
 				04DC15F92931EC4F009F3411 /* BalanceQuery.swift in Sources */,
+				04DADA6D2933A87F00950BDD /* DataManager.swift in Sources */,
+				04DADA6429339BB800950BDD /* TrafficManager.swift in Sources */,
+				04DADA5F293384D800950BDD /* DataModel.xcdatamodeld in Sources */,
 				04DC15F52931EC4F009F3411 /* Extensions.swift in Sources */,
-				04DC15E92931EC4F009F3411 /* StaticButtonStyle.swift in Sources */,
 				04DC15E52931EC4F009F3411 /* TrafficView.swift in Sources */,
 				04DC15FA2931EC4F009F3411 /* TdQuery.swift in Sources */,
+				04DADA62293387B200950BDD /* UserData.swift in Sources */,
 				04DC15F72931EC4F009F3411 /* URLs.swift in Sources */,
 				04DC15AF2931E9AB009F3411 /* ToolsApp.swift in Sources */,
 				04DC15F22931EC4F009F3411 /* User.swift in Sources */,
+				04DADA6F2933A98100950BDD /* ChartView.swift in Sources */,
 				04DC15E32931EC4F009F3411 /* NcovView.swift in Sources */,
 				04DC15F12931EC4F009F3411 /* UserProfile.swift in Sources */,
 				04DC15F62931EC4F009F3411 /* Exceptions.swift in Sources */,
@@ -439,8 +475,11 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_CFBundleDisplayName = "BUAA Tools";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationUsageDescription = "每日健康打卡";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "每日健康打卡";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -455,13 +494,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Toby-Shi.BUAA-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,8 +520,11 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_CFBundleDisplayName = "BUAA Tools";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationUsageDescription = "每日健康打卡";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "每日健康打卡";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -497,13 +539,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Toby-Shi.BUAA-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -564,6 +606,19 @@
 			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		04DADA5D293384D800950BDD /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04DADA5E293384D800950BDD /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 04DADA5E293384D800950BDD /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04DC15A32931E9AB009F3411 /* Project object */;
 }
